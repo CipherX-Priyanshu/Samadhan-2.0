@@ -43,3 +43,11 @@ Simple Student Marks Calculator
 - Understood how to calculate total/average marks per student
 ## Code Reference
 File: `phase-1/day-3/day3.js`
+
+
+## Day 4: Node.js Intro (August 26, 2025)
+- **Task**: Built a Node.js server using the `http` module.
+- **Features**: Returns "Hello, World!" on GET request to port 3000, with mock bilingual support (English/Hindi) based on URL (/hindi).
+- **Tech**: Node.js, `http` module.
+- **Relevance**: Foundation for backend API to serve exam questions or user data in the Study Buddy platform, supporting the hackathon’s bilingual requirement.
+- **Files**: `phase-1/day-4/day4.js`, `phase-1/day-4/package.json`.
