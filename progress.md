@@ -3,6 +3,7 @@
 ## Phase 1: JavaScript & Node.js Fundamentals
 
 ### Day 1: JavaScript Basics
+
 - **Task:** Print student details from an object
 - **Status:** ✅ Completed
 - **Key Concepts Learned:**
@@ -16,6 +17,7 @@
   - Learned basic Git push workflow
 
 ### Day 2: Functions & Loops
+
 - **Task:** Find highest marks from an array
 - **Status:** ✅ Completed
 - **Key Concepts Learned:**
@@ -27,3 +29,17 @@
 - **Notes/Challenges:**
   - Decided folder structure for Phase 1 tasks
   - Managed Git commits and pushes properly
+
+
+# Progress Log - Day 3
+
+## Task
+Simple Student Marks Calculator
+## Status
+✅ Completed
+## Learnings
+- Learned how to use arrays and objects together
+- Practiced array methods (map, filter, reduce)
+- Understood how to calculate total/average marks per student
+## Code Reference
+File: `phase-1/day-3/day3.js`
