@@ -10,6 +10,7 @@ The file **progress.md** documents the overall journey and progress.
 
 ## 📂 Project Structure  
 
+phase-1/
 ├── day-1/
 │ └── day1.js
 ├── day-2/
