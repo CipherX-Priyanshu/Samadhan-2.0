@@ -13,12 +13,13 @@ The file `progress.md` documents the overall journey and progress.
 
 phase-1/
 ├── day-1/
-│ └── day1.js
+│   └── day1.js
 ├── day-2/
-│ └── day2.js
+│   └── day2.js
 ├── day-3/
-│ └── day3.js
-└── progress.md
+│   └── day3.js
+progress.md
+
 
 
 - **day-1, day-2, day-3, ...** → Contains JavaScript practice code.  
