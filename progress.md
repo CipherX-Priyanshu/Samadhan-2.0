@@ -51,3 +51,11 @@ File: `phase-1/day-3/day3.js`
 - **Tech**: Node.js, `http` module.
 - **Relevance**: Foundation for backend API to serve exam questions or user data in the Study Buddy platform, supporting the hackathon’s bilingual requirement.
 - **Files**: `phase-1/day-4/day4.js`, `phase-1/day-4/package.json`.
+
+
+## Day 5: Express.js Basics (August 27, 2025)
+- **Task**: Built an Express.js API with GET and POST routes.
+- **Features**: GET / returns welcome message. GET /api/students returns student list with names, marks, and grades in JSON (English/Hindi via ?lang=hindi). POST /api/students adds a new student with marks and calculates grade.
+- **Tech**: Node.js, Express.js.
+- **Relevance**: Supports serving and managing student data for the Study Buddy platform, with bilingual support and score analysis tied to Day 3.
+- **Files**: `phase-1/day-5/day5.js`, `phase-1/day-5/package.json`, `phase-1/day-5/package-lock.json`.
