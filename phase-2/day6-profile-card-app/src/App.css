@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(180deg, #f0f4f8, #d9e2ec);
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.app h1 {
+  font-size: 3em;
+  color: #1a3c5e;
+  margin-bottom: 48px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  justify-content: center;
+  width: 100%;
+  max-width: none;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+
+  .app h1 {
+    font-size: 2.2em;
+    margin-bottom: 32px;
+  }
+}
