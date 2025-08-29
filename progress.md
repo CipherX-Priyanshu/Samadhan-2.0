@@ -59,3 +59,10 @@ File: `phase-1/day-3/day3.js`
 - **Tech**: Node.js, Express.js.
 - **Relevance**: Supports serving and managing student data for the Study Buddy platform, with bilingual support and score analysis tied to Day 3.
 - **Files**: `phase-1/day-5/day5.js`, `phase-1/day-5/package.json`, `phase-1/day-5/package-lock.json`.
+
+
+## Day 6 (Phase 2): Completed Profile Card Component
+- Created React app with Vite
+- Built ProfileCard.jsx with bilingual support (English/Hindi)
+- Styled with CSS for accessibility
+- Tested with sample student data
