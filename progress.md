@@ -66,3 +66,25 @@ File: `phase-1/day-3/day3.js`
 - Built ProfileCard.jsx with bilingual support (English/Hindi)
 - Styled with CSS for accessibility
 - Tested with sample student data
+
+
+# Samadhan 2.0 Hackathon - Phase 2 Progress
+
+## Day 7: Counter + Live Text Preview with Bilingual Support
+- **Date**: August 30, 2025
+- **Objective**: Build a React component with a counter, live text preview, and bilingual (English/Hindi) support using `useState` for state management.
+- **Implementation**:
+  - Created `CounterTextPreview.jsx` with `useState` hooks for `count` (counter), `text` (input), and `language` (English/Hindi toggle).
+  - Implemented increment/decrement buttons, text input with live preview, and a toggle button for language switching.
+  - Used inline CSS for styling (gray background, white card with shadow, green toggle button, blue/red counter buttons) due to Tailwind CSS configuration issues (`Unknown at rule @tailwindcss`).
+- **Challenges**:
+  - Faced `ENOENT: no such file or directory` for `package.json` and `Missing script: "dev"` errors, resolved by creating `package.json` in `my-counter-app/` with Vite scripts.
+  - Encountered `Failed to resolve import "./components/CounterTextPreview"` error, fixed by ensuring `CounterTextPreview.jsx` exists and is correctly imported.
+  - Tailwind CSS error (`Unknown at rule @tailwindcss`) prevented styles; switched to inline CSS for a polished UI.
+- **Outcome**:
+  - Functional component with a responsive UI, meeting all requirements (counter, text preview, bilingual toggle).
+  - Ready for submission with PPT and demo video.
+- **Future Enhancements**:
+  - Integrate AI (e.g., Hugging Face) for study tips based on text input.
+  - Add group collaboration features (e.g., shared notes).
+  - Resolve Tailwind CSS issues for future tasks.
