@@ -1,6 +1,9 @@
 # Samadhan 2.0 – Stage 1 Progress
 
+##
 ## Phase 1: JavaScript & Node.js Fundamentals
+##
+
 
 ### Day 1: JavaScript Basics
 
@@ -31,7 +34,7 @@
   - Managed Git commits and pushes properly
 
 
-# Progress Log - Day 3
+### Progress Log - Day 3
 
 ## Task
 Simple Student Marks Calculator
@@ -45,7 +48,7 @@ Simple Student Marks Calculator
 File: `phase-1/day-3/day3.js`
 
 
-## Day 4: Node.js Intro (August 26, 2025)
+### Day 4: Node.js Intro (August 26, 2025)
 - **Task**: Built a Node.js server using the `http` module.
 - **Features**: Returns "Hello, World!" on GET request to port 3000, with mock bilingual support (English/Hindi) based on URL (/hindi).
 - **Tech**: Node.js, `http` module.
@@ -53,7 +56,7 @@ File: `phase-1/day-3/day3.js`
 - **Files**: `phase-1/day-4/day4.js`, `phase-1/day-4/package.json`.
 
 
-## Day 5: Express.js Basics (August 27, 2025)
+### Day 5: Express.js Basics (August 27, 2025)
 - **Task**: Built an Express.js API with GET and POST routes.
 - **Features**: GET / returns welcome message. GET /api/students returns student list with names, marks, and grades in JSON (English/Hindi via ?lang=hindi). POST /api/students adds a new student with marks and calculates grade.
 - **Tech**: Node.js, Express.js.
@@ -61,16 +64,21 @@ File: `phase-1/day-3/day3.js`
 - **Files**: `phase-1/day-5/day5.js`, `phase-1/day-5/package.json`, `phase-1/day-5/package-lock.json`.
 
 
-## Day 6 (Phase 2): Completed Profile Card Component
+### Day 6 (Phase 2): Completed Profile Card Component
 - Created React app with Vite
 - Built ProfileCard.jsx with bilingual support (English/Hindi)
 - Styled with CSS for accessibility
 - Tested with sample student data
 
 
-# Samadhan 2.0 Hackathon - Phase 2 Progress
 
-## Day 7: Counter + Live Text Preview with Bilingual Support
+##
+## Samadhan 2.0 Hackathon - Phase 2 Progress
+##
+
+
+
+### Day 7: Counter + Live Text Preview with Bilingual Support
 - **Date**: August 30, 2025
 - **Objective**: Build a React component with a counter, live text preview, and bilingual (English/Hindi) support using `useState` for state management.
 - **Implementation**:
@@ -88,3 +96,17 @@ File: `phase-1/day-3/day3.js`
   - Integrate AI (e.g., Hugging Face) for study tips based on text input.
   - Add group collaboration features (e.g., shared notes).
   - Resolve Tailwind CSS issues for future tasks.
+
+
+
+### Day 8: React + Tailwind To-Do App
+- Setup React + Tailwind project
+- Built To-Do app UI
+- Add tasks (button + Enter key)
+- Mark tasks as complete
+
+  ## Learnings
+  - Tailwind setup & debugging
+  - React event handling
+  - Controlled inputs
+  - Conditional styling
