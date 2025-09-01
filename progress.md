@@ -110,3 +110,15 @@ File: `phase-1/day-3/day3.js`
   - React event handling
   - Controlled inputs
   - Conditional styling
+
+
+### Day 9: useEffect & Fetch API
+- Explored useEffect basics
+- Fetched data from Node backend (Student API from Day 5)
+- Built Student Directory (backend + frontend integration)
+
+## Learnings
+- Understanding dependency arrays in useEffect
+- Using Fetch API to get data from backend
+- Rendering dynamic lists in React
+- Handling loading states in UI
