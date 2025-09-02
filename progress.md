@@ -122,3 +122,10 @@ File: `phase-1/day-3/day3.js`
 - Using Fetch API to get data from backend
 - Rendering dynamic lists in React
 - Handling loading states in UI
+
+
+
+# Samadhan 2.0 - Day 10 Styling
+A Styled Product Card List for study resources using React and Tailwind CSS.
+- Features: Responsive grid, styled cards, "Add to Cart" buttons.
+- Next Steps: Add backend integration, bilingual support, and AI features.
