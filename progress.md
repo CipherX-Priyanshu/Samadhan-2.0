@@ -129,3 +129,31 @@ File: `phase-1/day-3/day3.js`
 A Styled Product Card List for study resources using React and Tailwind CSS.
 - Features: Responsive grid, styled cards, "Add to Cart" buttons.
 - Next Steps: Add backend integration, bilingual support, and AI features.
+
+
+###
+### Phase 3: Full-Stack Integration
+###
+
+
+### Day 11: Backend CRUD (Completed on September 3, 2025)
+
+**Task**: Build a Student CRUD API using Node.js and Express.js to manage student data, supporting Create, Read, Update, and Delete operations.
+
+**Description**:
+- Created an Express.js-based REST API with endpoints:
+  - `GET /students`: Retrieve all students.
+  - `GET /students/:id`: Retrieve a specific student by ID.
+  - `POST /students`: Create a new student with name, email, and marks.
+  - `PUT /students/:id`: Update a student’s details (e.g., marks).
+  - `DELETE /students/:id`: Delete a student by ID.
+- Used an in-memory array to store student data (e.g., `[{ id: 1, name: "John Doe", email: "john@example.com", marks: 85 }, ...]`).
+- Addressed an ESM error (`require is not defined`) by updating `index.js` to use ES Modules (`import express from 'express'`) due to `"type": "module"` in `package.json`.
+- Tested all endpoints using **Postman** and **curl** to ensure functionality:
+  - **GET /students**: Returned the full student list.
+  - **GET /students/1**: Returned a single student or 404 for invalid IDs.
+  - **POST /students**: Created a new student (e.g., `{"name": "Alice Brown", "email": "alice@example.com", "marks": 95}`) with status 201.
+  - **PUT /students/1**: Updated student data (e.g., changed marks to 88) with status 200.
+  - **DELETE /students/1**: Deleted a student with status 200, returning a confirmation message.
+  - Verified error cases (e.g., missing fields for POST, invalid IDs for GET/PUT/DELETE).
+- The API supports the hackathon’s goal of building an AI-powered study platform by providing a backend to manage student data, which can be extended with AI features (e.g., performance predictions) and bilingual support (Hindi/English).
