@@ -156,4 +156,26 @@ A Styled Product Card List for study resources using React and Tailwind CSS.
   - **PUT /students/1**: Updated student data (e.g., changed marks to 88) with status 200.
   - **DELETE /students/1**: Deleted a student with status 200, returning a confirmation message.
   - Verified error cases (e.g., missing fields for POST, invalid IDs for GET/PUT/DELETE).
-- The API supports the hackathon’s goal of building an AI-powered study platform by providing a backend to manage student data, which can be extended with AI features (e.g., performance predictions) and bilingual support (Hindi/English).
+- The API supports the hackathon’s goal of building an AI-powered study platform by providing a backend to manage student data, which can be extended with AI features (e.g., performance predictions) 
+
+
+
+
+### Day 12: React + API To-Do App
+  Setup React project with Vite and integrate with Node.js/Express backend
+  Built To-Do app UI with initial CSS styling
+  Add tasks (button + Enter key support added)
+  Mark tasks as complete (pending implementation)
+  Centered UI layout using flexbox and improved styling
+
+## Added backend root endpoint message ("Please use /api/tasks")
+# Learnings
+
+  React setup and integration with backend APIs using Axios
+  Event handling for Enter key press
+  Controlled inputs for task addition
+  Basic CSS flexbox for layout centering
+  Debugging API communication and UI placement issues
+  (Suggested) Tailwind CSS setup and utility-based styling (to be implemented)
+
+
