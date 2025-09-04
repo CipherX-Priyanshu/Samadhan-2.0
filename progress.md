@@ -179,3 +179,21 @@ A Styled Product Card List for study resources using React and Tailwind CSS.
   (Suggested) Tailwind CSS setup and utility-based styling (to be implemented)
 
 
+### Progress Log - Day 13
+
+## Task
+Notes App (Full-Stack CRUD with Database Integration)
+## Status
+✅ Completed
+## Learnings
+- Learned to connect Express.js with MongoDB for data storage and retrieval
+- Practiced CRUD operations (Create, Read, Update, Delete) using Mongoose
+- Understood how to handle API requests and responses with async/await
+- Explored frontend-backend integration with React and Axios
+- Gained experience troubleshooting MongoDB connection errors (e.g., ECONNREFUSED)
+- Implemented bilingual support (English/Hindi) and basic AI summarization with Hugging Face
+## Code Reference
+- File: `index.js` (Backend server setup)
+- File: `models/Note.js` (Note schema definition)
+- File: `routes/notes.js` (CRUD API routes)
+- File: `src/App.js` (React frontend with CRUD features)
